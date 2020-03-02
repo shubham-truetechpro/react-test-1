@@ -1,9 +1,18 @@
 ### Screenshots
 
+#### Default View
 ![ScreenShot](https://raw.githubusercontent.com/shubham-truetechpro/react-test-1/master/screenshots/1.png)
+
+#### Validation View
 ![ScreenShot](https://raw.githubusercontent.com/shubham-truetechpro/react-test-1/master/screenshots/2.png)
+
+#### Datepicker View
 ![ScreenShot](https://raw.githubusercontent.com/shubham-truetechpro/react-test-1/master/screenshots/3.png)
+
+#### Loading View
 ![ScreenShot](https://raw.githubusercontent.com/shubham-truetechpro/react-test-1/master/screenshots/4.png)
+
+#### Success View
 ![ScreenShot](https://raw.githubusercontent.com/shubham-truetechpro/react-test-1/master/screenshots/5.png)
 
 ### Task
