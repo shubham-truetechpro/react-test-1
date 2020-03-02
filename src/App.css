@@ -2,37 +2,90 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.RegistrationForm {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.RegistrationForm form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
 }
 
-@keyframes App-logo-spin {
+.RegistrationForm form textarea.textarea,
+.RegistrationForm form button.button,
+.RegistrationForm form input.input,
+.RegistrationForm form select.select {
+  padding: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  display: block;
+  margin-top: 10px;
+}
+
+.RegistrationForm form button.button {
+  text-align: center;
+}
+
+.RegistrationForm .loader {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid red;
+  border-radius: 50%;
+  border-left-color: transparent;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+}
+
+.RegistrationForm form span.error {
+  color: red;
+  font-size: 0.8rem;
+}
+
+.RegistrationForm .modal {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.RegistrationForm .modal .modalBody {
+  background-color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  width: 500px;
+}
+.RegistrationForm .modal .modalBody .closeModal {
+  display: block;
+  width: auto;
+  padding: 8px 16px;
+  background-color: dodgerblue;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  margin: 2rem auto 0 auto;
+}
+
+.RegistrationForm .modal .modalBody .closeModal:hover {
+  color: dodgerblue;
+  background-color: white;
+  border-color: dodgerblue;
 }
