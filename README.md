@@ -1,3 +1,13 @@
+### Screenshots
+
+![ScreenShot](https://raw.githubusercontent.com/shubham-truetechpro/react-test-1/master/screenshots/1.png)
+![ScreenShot](https://raw.githubusercontent.com/shubham-truetechpro/react-test-1/master/screenshots/2.png)
+![ScreenShot](https://raw.githubusercontent.com/shubham-truetechpro/react-test-1/master/screenshots/3.png)
+![ScreenShot](https://raw.githubusercontent.com/shubham-truetechpro/react-test-1/master/screenshots/4.png)
+![ScreenShot](https://raw.githubusercontent.com/shubham-truetechpro/react-test-1/master/screenshots/5.png)
+
+### Task
+
 Using React Hooks and pure Functional Components, create a simple registration form
 that accepts the following from a user
 Course (Radio)
