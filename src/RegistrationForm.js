@@ -148,7 +148,7 @@ export default function RegistrationForm(props) {
                 isSubmitted ?
                     <div className="modal">
                         <div className="modalBody">
-                            Submit Successful!!!
+                        Your course has been successfully registered.
                             <button className="closeModal" onClick={() => { setIsSubmitted(false) }}>Close</button>
                         </div>
                     </div>
